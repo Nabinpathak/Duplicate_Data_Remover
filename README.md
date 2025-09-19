@@ -3,11 +3,20 @@ A Python-based web application designed to upload Excel files to a PostgreSQL da
 
 #Features
 
-Excel Upload: Uploads Excel files (e.g., .xlsx, .xls) and maps columns to a leads table in a PostgreSQL database.
-Data Uniqueness: Ensures only unique records are inserted based on the place_id column.
-State Filtering: Allows filtering of database records by US state and downloading the filtered data as an Excel file.
-Debugging Support: Provides previews and logs of uploaded data, matched columns, and insertion status for troubleshooting.
-Flexible Schema: Supports a schema with 69 columns, including id, place_id, state, name, and more, with adaptive data type handling (e.g., converting unsigned integers to text).
+Excel Upload: 
+Uploads Excel files (e.g., .xlsx, .xls) and maps columns to a leads table in a PostgreSQL database.
+
+Data Uniqueness: 
+Ensures only unique records are inserted based on the place_id column.
+
+State Filtering: 
+Allows filtering of database records by US state and downloading the filtered data as an Excel file.
+
+Debugging Support: 
+Provides previews and logs of uploaded data, matched columns, and insertion status for troubleshooting.
+
+Flexible Schema: 
+Supports a schema with 69 columns, including id, place_id, state, name, and more, with adaptive data type handling (e.g., converting unsigned integers to text).
 
 #Technologies
 
@@ -20,7 +29,7 @@ Streamlit: Interactive web interface (alternative frameworks like Dash or Flask 
 #Installation
 
 Clone the repository:
-bashgit clone https://github.com/Nabinpathak/Duplicate_Data_Remover.git
+git clone https://github.com/Nabinpathak/Duplicate_Data_Remover.git
 cd Duplicate_Data_Remover
 
 Install dependencies:
