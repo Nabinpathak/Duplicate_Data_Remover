@@ -50,4 +50,5 @@ Insert unique records into the database and filter by state for export.
 #Challenges & Solutions
 
 Unsigned 64-bit Integer Issue: Resolved by converting all numeric data to text (TEXT type) to ensure compatibility with PostgreSQL.
+
 Schema Mismatch: Handled by aligning Excel columns with the database schema and providing warnings for unmatched columns.
